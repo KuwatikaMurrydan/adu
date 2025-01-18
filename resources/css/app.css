@@ -1,0 +1,28 @@
+.bg-green {
+    background-color: #4CAF50;  /* Warna hijau */
+    min-height: 100vh;  /* Memastikan latar belakang mencakup seluruh tinggi layar */
+    padding: 0;  /* Menghapus margin untuk menjaga latar belakang penuh */
+}
+
+.icon-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.list-group-item {
+    font-weight: 500;
+    border: none;
+    margin-bottom: 5px;
+}
